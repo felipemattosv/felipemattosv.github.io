@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfelipemattosv_github_io=self.webpackChunkfelipemattosv_github_io||[]).push([[195],{2841:(t,e,i)=>{i.r(e),i.d(e,{default:()=>n});i(7294);var s=i(2263),o=i(6550),u=i(5893);function n(){const t=(0,s.Z)(),{siteConfig:e={}}=t;return(0,u.jsx)(o.l_,{to:"/intro"})}}}]);
