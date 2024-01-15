@@ -19,7 +19,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Docs',
-      items: ['Docs/Docs Overview'],
+      items: ['Docs/Intro to Neural Networks'],
     },
   ],
   projectsSidebar: [
