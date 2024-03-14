@@ -64,9 +64,12 @@ Here are some important algebric representations of the neural network:
 
 ## Learning
 
-Find the best weights and biases for a neural network to solve a problem.
+Find the best weights and biases for a neural network to solve a problem. For this, the Neural Network must be trained with a lot of examples of the problem. Training a NN happens in two steps:
 
-initialize weights and biases randomly (Or use some kind of Transfer Learning), train the network and stop when the cost is small enough.
+1. **Feedforward**: In forward prop, the NN makes its best guess about the correct output. It runs the input data through each of its functions to make this guess.
+2. **Backward Propagation**: In backprop, the NN adjusts its parameters proportionate to the error in its guess. It does this by traversing backwards from the output, collecting the derivatives of the error with respect to the parameters of the functions (gradients), and optimizing the parameters using gradient descent.
+
+The weights and biases are randomly initialized or is used some kind of Transfer Learning.
 
 ### Cost Function
 
